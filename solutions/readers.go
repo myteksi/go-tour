@@ -6,7 +6,7 @@
 
 package main
 
-import "golang.org/x/tour/reader"
+import "github.com/myteksi/go-tour/reader"
 
 type MyReader struct{}
 

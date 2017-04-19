@@ -2,7 +2,7 @@
 
 package main
 
-import "golang.org/x/tour/tree"
+import "github.com/myteksi/go-tour/tree"
 
 // Walk walks the tree t sending all values
 // from the tree to the channel ch.
