@@ -3,8 +3,8 @@ package init
 import (
 	"sync"
 
-	"github.com/myteksi/go-tour/init/api"
-	"github.com/myteksi/go-tour/init/config"
+	"github.com/myteksi/go-tour/init_trap/api"
+	"github.com/myteksi/go-tour/init_trap/config"
 )
 
 var startServerOnce = &sync.Once{}

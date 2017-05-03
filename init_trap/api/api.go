@@ -6,7 +6,7 @@ import (
 
 	"errors"
 
-	"github.com/myteksi/go-tour/init/config"
+	"github.com/myteksi/go-tour/init_trap/config"
 )
 
 var (
