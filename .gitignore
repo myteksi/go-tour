@@ -1,3 +1,4 @@
 last-change
 *.orig
 *.rej
+.idea/*
