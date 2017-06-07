@@ -12,7 +12,7 @@ func potentiallyTimeConsumingCall(result chan struct{}) {
 
 func runALotOfTasks() int {
 	for i := 0; i < 100; i++ {
-		r := make(chan struct{}, 1)
+		r := make(chan struct{})
 		go potentiallyTimeConsumingCall(r)
 		select {
 		case <-r:

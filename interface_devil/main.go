@@ -9,7 +9,7 @@ func (m *myError) Error() string {
 }
 
 func raiseErrorWhenBadThingsHappens(bad bool) error {
-	var me error
+	var me *myError
 	if bad {
 		me = &myError{Msg: "this is bad!"}
 	}
